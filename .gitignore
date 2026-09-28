@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
+# credentials never belong in the repo
+*.json

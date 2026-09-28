@@ -1,0 +1,18 @@
+[project]
+name = "reddit-post-reader"
+version = "0.1.0"
+description = "Read one public Reddit post (never its comments) through Reddit's API, for personal notes"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+reddit-post-reader = "reddit_post_reader:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["reddit_post_reader"]
